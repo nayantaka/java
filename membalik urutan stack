@@ -1,0 +1,5 @@
+Berikut merupakan langkah-langkah membalik urutan dalam stack menggunakan Java
+1. Buat stack kosong bertipe karakter
+2. Konversi dari string menjadi karakter dengan menggunakan fungsi String.toCharArray() dan lakukan push setiap karakter ke dalam stack.
+3. Ambil setiap karakter dalam stack menggunakan pop sampai habis dan simpan kembali dalam array karakter. Dan karena stack menggunakan urutan FILO (First In Last Out), karakter akan disimpan dalam urutan yang terbalik.
+4. Terakhir, ubah array karakter menjadi string menggunakan String.copyValueOf(char[]). Cetak string yang sudah dalam urutan dibalik
