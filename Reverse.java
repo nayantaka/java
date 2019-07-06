@@ -8,7 +8,7 @@
 
 import java.util.Stack;
 
-class Main
+public class Reverse
 {
 	// Function untuk membalik string yang sudah ditetapkan dengan menggunakan stack dan array karakterto reverse a given string using a stack and character array
 	public static String reverse(String str)
